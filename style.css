@@ -29,12 +29,15 @@ li {
 }
 
 .visualizer {
-    display: inline-flex;
+    display: grid;
     position:fixed;
-    width: 182vh;
+    width: 90vw;
     height: 100vh;
     left: 36vh;
     top: 0px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
 .bar {
